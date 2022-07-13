@@ -1,4 +1,4 @@
-# [![Quiltt](./header-banner.png)](https://www.quiltt.io/)
+# [![Quiltt](https://raw.githubusercontent.com/quiltt/.github/main/profile/header-banner.png)](https://www.quiltt.io/)
 
 Low-Code Consumer Fintech Infrastructure
 
