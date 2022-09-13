@@ -1,0 +1,6 @@
+{
+  "name": "Check Core Hours",
+  "description": "Checks to prevent you from auto deploying during non-core hours.",
+  "iconName": "check-core-hours",
+  "categories": ["CI", "Utilities"]
+}
