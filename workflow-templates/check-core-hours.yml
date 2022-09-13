@@ -1,0 +1,25 @@
+name: Check Deploy Core Hours
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review, auto_merge_enabled, auto_merge_disabled]
+  pull_request_review:
+    types: [submitted]
+  schedule:
+    - cron: '0 15,22 * * *' # Re-check at 10am and 5pm EST every day
+
+jobs:
+  no_deploy_friday_job:
+    # Skip if the PR is a draft. @see: https://github.com/orgs/community/discussions/25722
+    if: github.event.pull_request.draft == false
+
+    runs-on: ubuntu-latest
+    name: Deploy?
+    steps:
+      - name: Deploy Core Hours
+        uses: quiltt/deploy-core-hours@v2.1
+        with:
+          timezone: 'America/New_York'
+          dayStartHour: 10
+          dayEndHour: 17
+          deployFriday: false
