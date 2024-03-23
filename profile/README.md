@@ -1,6 +1,6 @@
 # [![Quiltt](https://raw.githubusercontent.com/quiltt/.github/main/profile/header-banner.png)](https://www.quiltt.io/)
 
-Quiltt is the unified API for Open Banking. We make it effortless for companies of all sizes to build money experiences on the leading financial data networks and data enrichment providers - through one integration and one contract. 
+Quiltt is the unified API for Open Banking. We make it effortless for companies of all sizes to build amazing money experiences on top of the leading financial data networks and data enrichment providers - all through one integration and one contract. 
 
 ## Useful Links
 
